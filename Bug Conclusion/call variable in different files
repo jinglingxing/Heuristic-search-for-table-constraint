@@ -1,5 +1,5 @@
 I met a problem. In the project, the author puts all the global variables in the class.
 I add some codes in this global variable class(G.scala), using A.scala to give a list of values in the array(array is in G.scala)
 I used B.scala to get the value from G.scala, which was already changed by A.scala. But what i got is the empty array.
-Tried many things, like writing an interface and tring parallel method, but those didn't work. 
+Tried many things to solve this bug, like writing an interface and tring parallel method, but those didn't work. 
 Finally, using the singleton object to solve my bug.
